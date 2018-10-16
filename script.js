@@ -35,7 +35,7 @@ const ENGINES = {
 	"!w": "https://en.wikipedia.org/w/index.php?search=",
 	"!m": "https://www.wolframalpha.com/input/?i=",
 	"!r": "https://reddit.com/r/",
-	'!s': "https://scholar.google.pt/#q="
+	'!s': "https://scholar.google.com/#q="
 
 };
 
