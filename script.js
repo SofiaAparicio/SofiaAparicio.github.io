@@ -28,13 +28,14 @@ searchbox.addEventListener("keypress", function(event) {
 // Behold, the magical powers of JavaScript!
 const ENGINES = {
 	default: "https://www.google.com/#q=",
-	"!s": "https://stackoverflow.com/search",
+	"!o": "https://stackoverflow.com/search",
 
 	"!a": "https://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=",
 	"!y": "https://www.youtube.com/results?search_query=",
 	"!w": "https://en.wikipedia.org/w/index.php?search=",
 	"!m": "https://www.wolframalpha.com/input/?i=",
-	"!r": "https://reddit.com/r/"
+	"!r": "https://reddit.com/r/",
+	'!s': "https://scholar.google.pt/#q="
 
 };
 
