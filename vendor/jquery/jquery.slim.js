@@ -2703,6 +2703,11 @@ support.sortDetached = assert(function( el ) {
 	return el.compareDocumentPosition( document.createElement("fieldset") ) & 1;
 });
 
+// Support: Chrome<29, Android<4.4, Safari<7.0+, iOS<7.0+, PhantomJS<1.9.8+
+	if ( !el.querySelectorAll( "[id~=" + expando + "-]" ).length ) {
+		rbuggyQSA.push("~=");
+	}
+
 // Support: IE<8
 // Prevent attribute/property "interpolation"
 // https://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
