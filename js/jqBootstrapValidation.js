@@ -934,4 +934,17 @@
     $(":input").not("[type=image],[type=submit]").jqBootstrapValidation.apply(this, arguments);
   };
 
+  // ========================================================================= //
+  //  Typed Js
+  // ========================================================================= //
+  var typed = $(".typed");
+
+  $(function () {
+    typed.typed({
+      strings: ["Dig a Little Deeper", "Sofia Aparicio", "Engineer", "Developer", "Designer", "Sofia Aparicio"],
+      typeSpeed: 50,
+      loop: true,
+    });
+  });
+
 })(jQuery);
